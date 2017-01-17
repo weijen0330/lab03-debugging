@@ -1,14 +1,14 @@
 class stringProcessor{
     private data: string;
     constructor(input: string){
-        input = data;
+        input = this.data;
     }
 
     public getString(): string{
-        return data;
+        return this.data;
     }
 
-    public setString(data:string){
+    public setString(data: string){
         this.data = data;
     }
 
